@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body
+{
+    margin: 0;
+    width: 100%;
+}
+
+.navbar
+{
+    float: left;
+    width: 100%;
+    background-color: white; 
+    font-family: 'Montserrat', sans-serif;    
+}
+
+
+.navbar-links a 
+{
+    color: black;
+    text-decoration: none;
+    padding-left: 0.7em;
+    padding-right: 1.6em;
+    font-size: 1.1em;
+    line-height: 5em;
+    font-family: 'Montserrat', Bold 700;
+}
+
+.navbar-links a:hover
+{
+  color: #D20A0A;
+
+}
+
+.last a 
+{
+    color: black;
+    text-decoration: none;
+    padding: 0.7em;
+    font-size: 1.1em;
+    line-height: 5em;
+}
+
+.navbar img
+{
+    width: 7em;
+    margin-left: 1em;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.navbar img:hover
+{
+  transform: scale(1.1);
+  transition: 0.6s ease-in-out;
+}
+.navbar-links
+{
+    float: right;
+}
+
+.navbar-logo
+{
+float: left;
+}
+
+
+.last a.active {
+    background-color: #04AA6D;
+    color: black;
+  }
+  
+  .last .icon {
+    display: none;
+    padding: 0;
+    margin-right: 1.2em;
+  }
+
+.background-picture img
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+
+  .background-picture img
+  {
+    width: 100%;
+  }
+
+  .inner .logo-sep
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner img
+  {
+    width: 15%;
+    position: absolute;
+    top: 12em;
+  }
+  
+  .home-down
+  {
+    float: left;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12%;
+    margin-bottom: 12%;    
+
+  }
+
+  .home-down h2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+  }
+
+  .home-down .img-home
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-down .img-home img
+  {
+    width: 35%;
+  }
+
+  .homepage-text
+  {
+    width: 100%;
+    float: left;
+  }
+
+  .home-down p
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 22%;
+    padding-right: 22%;
+    text-align: center;
+    padding-top: 0.7em;
+  }
+
+  .app-pic
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.geschiedenis-down
+{
+   float: left;
+   width: 100%;
+}
+
+.geschiedenis-down h2
+{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .ufc-start
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3em;
+  }
+
+  .ufc-start img
+  {
+    float: left;
+    width: 17%;
+  }
+
+  .ufc-start p
+  {
+    float: left;
+    width: 38.5%;
+    margin-right: 2em;
+  }
+
+  .ufc-mid
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ufc-mid img
+  {
+    float: left;
+    width: 17%;
+  }
+
+  .ufc-mid p
+  {
+    float: left;
+    width: 40%;
+    margin-left: 2em;
+  }
+
+ 
+  .kampioenen-page
+  {
+    float: left;
+    width: 100%;
+    margin-top: 0.3em;
+    font-family: 'Montserrat', sans-serif;    
+    
+  }
+
+  .kampioenen-page h2
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kampioenen-page p
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .top3
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ngannou
+  {
+    float: left;
+    padding: 2em;
+  }
+
+  .ngannou img
+  {
+    float: left;
+  }
+  
+  .ngannou img:hover
+  {
+    transform: scale(1.04);
+    transition: 0.6s ease-in-out;
+  }
+
+  .ngannou h5
+  {
+   margin-top: 20em;
+   margin-bottom: 0;
+  }
+
+  .ngannou p
+  {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.3em;
+  }
+
+  .pereira
+  {
+    float: left;
+    padding: 2em;
+  }
+
+  .pereira img
+  {
+    float: left;
+  }
+
+  .pereira img:hover
+  {
+    transform: scale(1.04);
+    transition: 0.6s ease-in-out;
+  }
+
+  .pereira h5
+  {
+   margin-top: 20em;
+   margin-bottom: 0;
+  }
+
+  .pereira p
+  {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.3em;
+  }
+
+  .edwards
+  {
+    float: left;
+    padding: 2em;
+  }
+
+  .edwards img
+  {
+    float: left;
+  }
+
+  .edwards img:hover
+  {
+    transform: scale(1.04);
+    transition: 0.6s ease-in-out;
+  }
+
+  .edwards h5
+  {
+   margin-top: 20em;
+   margin-bottom: 0;
+  }
+
+  .edwards p
+  {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.3em;
+  }
+
+
+  .makhachev
+  {
+    float: left;
+    padding: 2em;
+  }
+
+  .makhachev img
+  {
+    float: left;
+  }
+
+  .makhachev img:hover
+  {
+    transform: scale(1.04);
+    transition: 0.6s ease-in-out;
+  }
+
+  .makhachev h5
+  {
+   margin-top: 20em;
+   margin-bottom: 0;
+  }
+
+  .makhachev p
+  {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.3em;
+  }
+
+  .volkanovski
+  {
+    float: left;
+    padding: 2em;
+  }
+
+  .volkanovski img
+  {
+    float: left;
+  }
+
+  .volkanovski img:hover
+  {
+    transform: scale(1.04);
+    transition: 0.6s ease-in-out;
+  }
+
+  .volkanovski h5
+  {
+   margin-top: 20em;
+   margin-bottom: 0;
+  }
+
+  .volkanovski p
+  {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.3em;
+  }
+
+  .sterling
+  {
+    float: left;
+    padding: 2em;
+  }
+
+  .sterling img
+  {
+    float: left;
+  }
+
+  .sterling img:hover
+  {
+    transform: scale(1.04);
+    transition: 0.6s ease-in-out;
+  }
+
+  .sterling h5
+  {
+   margin-top: 20em;
+   margin-bottom: 0;
+  }
+
+  .sterling p
+  {
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.3em;
+  }
+
+  .ppv-start
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+  }
+
+  .ppv-start img
+  {
+    float: left;
+    width: 17%;
+  }
+
+  .ppv-start p
+  {
+    float: left;
+    width: 38.5%;
+    margin-right: 2em;
+  }
+
+  .ufc-last
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+  }
+
+  .ufc-last img
+  {
+    float: left;
+    width: 20%;
+  }
+
+  .ufc-last p
+  {
+    float: left;
+    width: 50%;
+    margin-left: 3em;
+  }
+
+  .ufc-ultimate
+  {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ufc-ultimate img
+  {
+    float: left;
+    width: 20%;
+  }
+
+  .ufc-ultimate p
+  {
+    float: left;
+    width: 50%;
+    margin-right: 2.3em;
+  }
+
+  @media screen and (max-width: 680px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar-links a:not(:last-child) {display: none;}
+    .navbar a.icon {
+      float: left;
+      display: block;
+      margin-right: 1.2em;
+    }
+
+    .navbar .icon
+    {
+        margin-left: 1em;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+      }
+  }
+  
+
+
+  @media screen and (max-width: 680px) {
+    .navbar.responsive a {
+      float: left;
+      display: block;
+      text-align: center;
+    }
+
+    .navbar-links {
+        float: left;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container .responsive{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .navbar-links a 
+    {
+       line-height: 0.7em;
+       margin-bottom: 1.2em;
+    }
+
+  }
+
+  
+
+  
+
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC</title>
+    <link rel="stylesheet" href="./CSS/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./IMG/icon_ufc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar" id="myTopnav">
+      <div class="container">
+        <div class="navbar-logo">
+        <a href="#"><img src="./IMG/ufc_logo.png"></a>
+       </div>
+        <div class="last">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+        </div>
+
+      <div class="navbar-links">
+        <a href="./HTML/Geschiedenis.html"><b>Geschiedenis</b></a>
+        <a href="./HTML/Kampioenen.html"><b>Kampioenen</b></a>
+        <a href="./HTML/PPV.html"><b>PPV</b></a>
+        <a href="./HTML/Punten.html"><b>Punten</b></a>
+        
+      </div>
+    </div>
+
+    <div class="background-picture">
+      <img src="./IMG/Home_pagina.png" alt="background-picture">
+
+      <div class="inner">
+        <div class="logo-sep">
+          <img src="./IMG/ufc_logo.png" alt="UFC-logo">
+        </div>
+      </div>
+      </div>
+
+      <div class="home-down">
+        <h2>UFC Fightpass</h2>
+
+        <div class="img-home">
+          <img data-aos="fade-up" data-aos-duration="500" src="./IMG/UFC-Fightpass.png" alt="Fightpass">
+        </div>
+
+        <div class="homepage-text">
+          <p>Access to UFC events, the entire UFC Fight Library, live martial arts events from around the world and exclusive original series and shows.</p>
+          
+          <div class="app-pic">
+          <a href="https://apps.apple.com/us/app/ufc/id534568162"><img src="./IMG/apple download.png" alt="IOS download"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.neulion.smartphone.ufc.android&hl=en&gl=US&pli=1"><img src="./IMG/google play download.png"></a>
+          </div>
+        </div>
+        
+      </div>
+
+
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+
+
+  
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      </script>
+      
+      
+    
+</body>
+</html>

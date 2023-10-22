@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+    <link rel="icon" href="../IMG/icon_ufc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar" id="myTopnav">
+      <div class="container">
+        <div class="navbar-logo">
+        <a href="../index.html"><img src="../IMG/ufc_logo.png"></a>
+       </div>
+        <div class="last">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="navbar-links">
+          <a href="#"><b>Geschiedenis</b></a>
+          <a href="../HTML/Kampioenen.html"><b>Kampioenen</b></a>
+          <a href="../HTML/PPV.html"><b>PPV</b></a>
+          <a href="../HTML/Punten.html"><b>Punten</b></a>
+          
+        </div>
+
+
+      <div class="geschiedenis-down">
+        <h2>Geschiedenis</h2>
+
+        <div data-aos="fade-left" class="ufc-start">
+            <p>De UFC startte in 1993 als een toernooi om 's werelds beste vechter te vinden, ongeacht in welke stijl die zijn oorsprong vond. Dit idee was gebaseerd op de Brazilliaanse vechtsport vale tudo. De bedoeling was om het evenement eenmalig te houden, maar door het succes van de eerste editie volgden er meer. Hoewel er een beperkt aantal regels gold, waren UFC-wedstrijden vaak bruut en gewelddadig. De eerste UFC-gevechten waren eerder spectaculair dan sportief, wat leidde tot beschuldigingen van bruutheid en "menselijke hanengevechten" door tegenstanders. Politieke druk leidde ertoe dat de UFC publiekelijk verdween en ondergronds ging.</p>
+            <img src="../IMG/Picture1.png" alt="First Tournament">
+        </div>
+        
+
+        <div data-aos="fade-right" class="ufc-mid">
+        <img src="../IMG/Picture2.png" alt="Ultimate Fighter">
+        <p>Bekendheid bij het grote publiek verwierf de UFC in 2004 met een realityserie, genaamd The Ultimate Fighter. Hierin streden zestien MMA-vechters, verdeeld over twee gewichtsklassen, onder elkaar om een contract in de UFC te kunnen bemachtigen. Ze verbleven in een villa en hadden geen contact met hun vrienden of familie. Ze werden getraind en gecoacht door bekende UFC-vechters en enkele andere professionele trainers. De finale van deze competitie gaf de doorslag wat betreft de bekendheid van de UFC. </p>
+        </div>
+
+        
+        <div data-aos="fade-right" class="ufc-mid">
+        <img src="../IMG/Takeover.png" alt="Take over">
+        <p>Casino-ondernemers en broers Frank Fertitta III en Lorenzo Fertitta kochten in 2001 voor twee miljoen dollar 81% van de eigendomsrechten van UFC en begonnen het sportpromotiebedrijf Zuffa om die in onder te brengen. Ze gingen daarbij in zee met Flash Entertainment dat 10% van de aandelen heeft en zakenman Dana White (9%), die tevens voorzitter en woordvoerder van de organisatie werd. De UFC omarmde striktere regelgeving, werd onderhevig aan regelgevende sportcommissies en profileerde zich als een legitiem sportevenement. Het no holds barred-predicaat schudde men van zich af en men ging verder onder de noemer mixed martial arts (MMA). Zo stond de UFC op uit haar politieke isolement, werd meer sociaal geaccepteerd en herwon haar positie binnen de wereld van pay-per view wereld. Er werd meer aandacht besteed aan promotie en met een overeenkomst met een kabelexploitant op zak en de legalisatie van MMA in Californië, mocht de UFC zich langzaam maar zeker op een toenemende mate van populariteit en media-aandacht verheugen.</p>
+        </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </div>
+    </body>
+    </html>

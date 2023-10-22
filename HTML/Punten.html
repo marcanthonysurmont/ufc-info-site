@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+    <link rel="icon" href="../IMG/icon_ufc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar" id="myTopnav">
+      <div class="container">
+        <div class="navbar-logo">
+        <a href="../index.html"><img src="../IMG/ufc_logo.png"></a>
+       </div>
+        <div class="last">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="navbar-links">
+          <a href="../HTML/Geschiedenis.html"><b>Geschiedenis</b></a>
+          <a href="../HTML/Kampioenen.html"><b>Kampioenen</b></a>
+          <a href="../HTML/PPV.html"><b>PPV</b></a>
+          <a href="#"><b>Punten</b></a>
+          
+        </div>
+
+      <div class="geschiedenis-down">
+        <h2>Punten</h2>
+
+
+        <div data-aos="fade-right" class="ufc-last">
+          <img src="../IMG/Judges.png" alt="Judges">
+          <p>Een wedstrijd wordt meestal beslist/beëindigd door opgave van de tegenstander, die aan zijn tegenstander verbaal of via (driemaal of meer) afkloppen aangeeft niet meer verder te kunnen/willen vechten.
+            Door een knock-out (K.O.), een vechter gaat na een toegestane klap door de tegenstander neer en is bewusteloos of niet in staat direct het gevecht te hervatten.
+            Een technische knock-out (T.K.O.), het gevecht wordt door de scheidsrechter beëindigd, als deze van mening is dat de vechter zich niet meer kan verdedigen; als waarschuwingen aan het adres van een vechter om zijn vechthouding/verdediging te verbeteren niet worden opgevolgd (doorgaans worden er twee waarschuwingen met tussenpoos van vijf seconden gegeven); als een bij het gevecht aanwezige arts het onverantwoord vindt dat een vechter de wedstrijd voortzet als gevolg van een blessure.
+            Een jurybeslissing, afhankelijk van de score eindigt de wedstrijd en wordt de winnaar gekozen of geroepen tot gelijkspel.</p>
+          </div>
+
+
+        <div data-aos="fade-left" class="ufc-ultimate">
+            <p>Er is een tienpuntensysteem van toepassing op alle UFC-gevechten; drie juryleden noteren elke ronde een winnaar, die tien punten krijgt, de verliezer van een ronde krijgt negen punten of minder. Als de ronde gelijk is, krijgen beide vechters tien punten. In New Jersey mag de verliezer niet minder dan zeven punten krijgen, in andere staten is het ongewoon om een vechter minder dan zeven punten toe te kennen.</p>
+            <img src="../IMG/knockout.png" alt="knock-out">
+        </div>
+        
+    </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </body>
+
+  </html>

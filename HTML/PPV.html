@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+    <link rel="icon" href="../IMG/icon_ufc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar" id="myTopnav">
+      <div class="container">
+        <div class="navbar-logo">
+        <a href="../index.html"><img src="../IMG/ufc_logo.png"></a>
+       </div>
+        <div class="last">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="navbar-links">
+          <a href="../HTML/Geschiedenis.html"><b>Geschiedenis</b></a>
+          <a href="../HTML/Kampioenen.html"><b>Kampioenen</b></a>
+          <a href="#"><b>PPV</b></a>
+          <a href="../HTML/Punten.html"><b>Punten</b></a>
+        </div>
+
+      <div class="kampioenen-page">
+        <h2>Pay-Per View</h2>
+      </div>
+
+      <div data-aos="fade-left" class="ppv-start">
+        <p>Pay-per-view of PPV is een soort televisie- of webcastingservice waarmee kopers live-evenementen vanaf elke locatie via internet kunnen bekijken. PPV is een belangrijke factor geworden in de groeiende populariteit van vechtsporten. Het is vaak een onderwerp van discussie en staat centraal in veel debatten over de beloning van UFC-Vechters. PPV-punten hebben lange tijd invloed gehad op de beloning van UFC-Vechters, waardoor de salarissen die aan de atleten worden gegeven enorm zijn veranderd. Pay-per-view-punten zijn niet inbegrepen in het basissalaris, de winstbonus, prestatiebonussen of kleedkamerbetalingen van de atleten. Hoe dan ook, het schiet de salarissen van vechters vaak omhoog.</p>
+        <img src="../IMG/ppv.png" alt="First Tournament">
+    </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    </body>
+
+    </html>

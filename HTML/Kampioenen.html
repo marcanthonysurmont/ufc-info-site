@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+    <link rel="icon" href="../IMG/icon_ufc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar" id="myTopnav">
+      <div class="container">
+        <div class="navbar-logo">
+        <a href="../index.html"><img src="../IMG/ufc_logo.png"></a>
+       </div>
+        <div class="last">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="navbar-links">
+          <a href="../HTML/Geschiedenis.html"><b>Geschiedenis</b></a>
+          <a href="#"><b>Kampioenen</b></a>
+          <a href="../HTML/PPV.html"><b>PPV</b></a>
+          <a href="../HTML/Punten.html"><b>Punten</b></a>
+          
+        </div>
+    </div>
+    
+    <div class="kampioenen-page">
+      <h2>Kampioenen</h2>
+      <p>Huidige UFC-Kampioenen in hun respectieve gewichtsklasse.</p>
+
+
+
+      <div data-aos="zoom-in" class="top3">
+
+      <div class="ngannou">
+        <img src="../IMG/ngannou.png" alt="Francis Ngannou">
+        <h5>Francis Ngannou</h5>
+        <p>Zwaargewicht klasse kampioen</p>
+      </div>
+            
+      <div class="pereira">
+        <img src="../IMG/pereira.png" alt="Alex Pereira">
+        <h5>Alex Pereira</h5>
+        <p>Middengewicht klasse kampioen</p>
+      </div>
+
+      <div class="edwards">
+        <img src="../IMG/edwards.png" alt="Leon Edwards">
+        <h5>Leon Edwards</h5>
+        <p>Weltergewicht klasse kampioen</p>
+      </div>
+      </div>
+
+      <div data-aos="zoom-in" class="top3">
+
+        <div class="makhachev">
+          <img src="../IMG/makhachev.png" alt="Islam Makhachev">
+          <h5>Islam Makhachev</h5>
+          <p>Lichtgewicht klasse kampioen</p>
+        </div>
+              
+        <div class="volkanovski">
+          <img src="../IMG/volkanovski.png" alt="Alexander Volkanovski">
+          <h5>Alexander Volkanovski</h5>
+          <p>Verengewicht klasse kampioen</p>
+        </div>
+  
+        <div class="sterling">
+          <img src="../IMG/sterling.png" alt="Aljamain Sterling">
+          <h5>Aljamain Sterling</h5>
+          <p>Bamtamgewicht klasse kampioen</p>
+        </div>
+        </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+      </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  </html>
+    
